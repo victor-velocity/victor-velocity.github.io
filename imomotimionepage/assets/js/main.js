@@ -29,11 +29,11 @@ function lightmode() {
     topGrey.src='assets/images/shape-top-grey-80.png'
     bottomGrey.src='assets/images/shape-bottom-grey-80.png'
     topGrey2.src='assets/images/shape-top-grey-80.png'
-    document.getElementById('bottomgrey2').src='assets/images/shape-bottom-grey-80.png'
+bottomGrey2.src='assets/images/shape-bottom-grey-80.png'
 }
 
 const toggleMode = () => {
-    if (themeStyle.getAttribute('href') === assets/css/dark.css') {
+    if (themeStyle.getAttribute('href') === 'assets/css/dark.css') {
         lightmode();
     } else {
         darkmode();
